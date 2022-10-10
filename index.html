@@ -11,15 +11,16 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
      crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
      <link rel="stylesheet" href="index.css">
     <title>My Portfolio</title>
 </head>
 <body>
-        <nav class="container">
-            <nav class="navbar navbar-expand-lg">
-               <div class="container-fluid">
-                  <!--<a class="navbar-brand" href="#">Navbar</a>-->
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <header class="container-fluid">
+            <nav class="navbar navbar-expand-sm"> 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,39 +47,38 @@
                         </ul>
                       </li>
                       </ul>
-                      <!--<li class="nav-item">
-                         <a class="nav-link disabled">Disabled</a>
-                      </li>
-                    </ul>-->
-                    <!--<form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>-->
                   </div>
-                </div>
               </nav>
-    <div class="container text-center">
-        <div class="row">
-          <div class="col-md-4"><h2 class="animation">JESSICA TANMATEOS</h2></div>
-          <div class="col-md-4 ms-auto"> <img src="kamerabilder/jessicat.png" alt="jessicat"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-3"><span>Mitt namn är Jessica Tanmateos och jag studerar på Medieinstitutet som
-            Front End Developer. Jag är ny inom detta område men djupt intresserad och kommer därav att växa enormt!
-             </span></div>
-          <div class="col-md-3 ms-md-auto"><h5>SKILLS</h5>
+       </header>
+      <main>
+    <section class="section1"><h1 class="animation">Jessica Tanmateos</h1>
+      <figure class="pic">
+      <img src="assets\jessicat.png" alt="jessica" class="picture">
+    </figure>
+    </section>
+    <section class="section2">
+      <article><p>Mitt namn är Jessica Tanmateos och jag studerar på Medieinstitutet som
+        Front End Developer. Jag är ny inom detta område men djupt intresserad och kommer därav att växa enormt!
+         </p></article>
+         <article>
+         <h5>SKILLS</h5>
             <ul>
             <li>HTML/CSS</li>
             <li>Javascript</li>
             <li>Python</li>
-            <li>React</li>
-          </ul></div>
-        </div>
-        <div class="row">
-          <div class="col-auto me-auto"></div>
-          <div class="col-auto"><button type="button" class="btn btn-dark">PROJECTS</button></div>
-        </div>
-      </div>
-      </nav>
+            </ul>
+          </article>
+    </section>
+  <aside class="projects">
+    <button class="button">Projects</button>
+  </aside>
+  </main>
+  <footer class="footer">
+    <ul class="contact">
+      <li><i class="bi bi-linkedin"></i></li>
+      <li><i class="bi bi-github"></i></li>
+      <li><i class="bi bi-envelope-fill"></i></li>
+    </ul>
+  </footer>
   </body>
 </html>
