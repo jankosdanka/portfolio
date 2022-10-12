@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&display=swap');
  
 body{
- /* background-color: rgb(17, 17, 58);*/
    background-color: rgb(23, 23, 90);  
    font-family: 'Montserrat', sans-serif;
    font-family: 'Playfair Display', serif;
@@ -19,16 +18,18 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-  .button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
   }
 
   .animation{
     padding-top:10%;
     padding-bottom: 20%;
+  }
+
+  .projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
 }
@@ -54,12 +55,6 @@ main{
     align-items: center;
     color: antiquewhite;
 }
-/* h2{
-
-    color:antiquewhite;
-    padding-top: 50px;
-} */
-
 
 h5{
 text-align: center;
@@ -68,8 +63,6 @@ padding-top: 15px;
 padding-right: 30px;
 
 }
-
-
 
 article{
     width: 40%;
@@ -110,6 +103,7 @@ li{
     justify-content:flex-end;
     padding-right: 10%;
     padding-bottom: 10%;
+    padding-top: 30px;
 }
 .button{
     width: 25%;   
@@ -152,6 +146,7 @@ li{
     background-color: rgb(22, 22, 83);  
     height: 20vh;
     color: antiquewhite;
+
   }
 .contact{
     display: flex;
@@ -160,9 +155,13 @@ li{
     justify-content: space-evenly;
     list-style: none;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .contact li :hover {
     cursor: pointer;
 } 
+
+a{
+  color: white;
+}
